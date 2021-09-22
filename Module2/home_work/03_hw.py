@@ -31,3 +31,14 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+price = float (input ("Введите цену:" ))
+i = int (1)
+
+if price > 0 :
+    while i <=20:
+        price1 = float (price *i )  
+        print (i, price1, "Rub.")
+        i+= 1
+else: 
+    print ("некорректная цена")
+    
